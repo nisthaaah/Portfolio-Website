@@ -1,39 +1,48 @@
 document.addEventListener("DOMContentLoaded", function () {
-        const aboutLink = document.querySelector('a[href="#aboutme"]');
+    const aboutLink = document.querySelector('a[href="#aboutme"]');
 
-        aboutLink.addEventListener("click", function (event) {
-            event.preventDefault();
+    aboutLink.addEventListener("click", function (event) {
+        event.preventDefault();
 
-            const aboutSection = document.getElementById("aboutme");
-            aboutSection.scrollIntoView({ behavior: "smooth" });
-        });
+        const aboutSection = document.getElementById("aboutme");
+        aboutSection.scrollIntoView({ behavior: "smooth" });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollToContinue = document.querySelector('.learnmore');
+
+    scrollToContinue.addEventListener("click", function () {
+        const aboutSection = document.getElementById("aboutme");
+        aboutSection.scrollIntoView({ behavior: "smooth" });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollToContinue = document.querySelector('.learnmore');
+    const homeLink = document.getElementById('homelink');
+
+    scrollToContinue.addEventListener("click", function () {
+        const aboutSection = document.getElementById("aboutme");
+        aboutSection.scrollIntoView({ behavior: "smooth" });
     });
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const scrollToContinue = document.querySelector('.learnmore');
-
-        scrollToContinue.addEventListener("click", function () {
-            const aboutSection = document.getElementById("aboutme");
-            aboutSection.scrollIntoView({ behavior: "smooth" });
+    homeLink.addEventListener("click", function (event) {
+        event.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
         });
     });
+});
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const scrollToContinue = document.querySelector('.learnmore');
-        const homeLink = document.getElementById('homelink');
+document.addEventListener("DOMContentLoaded", function () {
+    const aboutLink = document.querySelector('a[href="#resume"]');
 
-        scrollToContinue.addEventListener("click", function () {
-            const aboutSection = document.getElementById("aboutme");
-            aboutSection.scrollIntoView({ behavior: "smooth" });
-        });
+    aboutLink.addEventListener("click", function (event) {
+        event.preventDefault();
 
-        homeLink.addEventListener("click", function (event) {
-            event.preventDefault();
-            window.scrollTo({
-                top: 0,
-                behavior: "smooth"
-            });
-        });
+        const aboutSection = document.getElementById("resume");
+        aboutSection.scrollIntoView({ behavior: "smooth" });
     });
-
-
+});

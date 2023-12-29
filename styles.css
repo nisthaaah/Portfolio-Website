@@ -15,7 +15,7 @@
     padding: 10px;
 }
 
-.listitem{
+.listitem {
     padding-top: 10px;
     padding-left: 850px;
 }
@@ -25,7 +25,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    
+
 }
 
 .navbar ul li {
@@ -35,14 +35,15 @@
 .navbar ul li a {
     text-decoration: none;
     color: #fff;
-    display: block; /* Ensures the whole area is clickable */
+    display: block;
+    /* Ensures the whole area is clickable */
     padding: 8px;
 }
 
-li a{
+li a {
     font-family: 'Poppins', sans-serif;
 
-    
+
 }
 
 .navbar ul li a:hover {
@@ -51,7 +52,7 @@ li a{
 
 .container {
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .devimg {
@@ -89,16 +90,16 @@ li a{
 
 .name {
     font-size: 50px;
-    font-weight:900;
+    font-weight: 900;
     color: white;
 }
 
-.namespan{
+.namespan {
     /* color: rgb(7, 234, 255); */
     color: #ffc107;
 }
 
-.surname{
+.surname {
     font-size: 50px;
     font-weight: bolder;
     color: #ffc107;
@@ -124,7 +125,8 @@ li a{
     padding: 9px 14px;
     border-radius: 22px;
     color: white;
-    background-color: #ffcc00;;
+    background-color: #ffcc00;
+    ;
     font-weight: bold;
     font-size: 12px;
     margin: 0 3 px;
@@ -148,27 +150,27 @@ li a{
 
 }
 
-.contactform form div{
+.contactform form div {
     padding: 10 0;
     margin: 10px 10px;
     display: flex;
     flex-direction: column;
 }
 
-.contactform form div input{
+.contactform form div input {
     width: 20vw;
     border-radius: 5px;
 }
 
-#emailHelp{
+#emailHelp {
     font-size: 8px;
     color: grey;
     padding: 3px 0 0 0;
     margin: 0 5px;
-    
+
 }
 
-.btn{
+.btn {
     margin-left: 10px;
     padding: 9px 14px;
     border-radius: 15px;
@@ -183,41 +185,43 @@ li a{
 .material-symbols-outlined {
     font-family: 'Material Icons';
     margin-right: 10px;
-padding-left: 140px;
-color: white;
-font-size: medium;
+    padding-left: 140px;
+    color: white;
+    font-size: medium;
 }
 
-.learnmore{
+.learnmore {
     display: flex;
     align-items: center;
     color: white;
     cursor: pointer;
 }
 
-.learnmore h2{
+.learnmore h2 {
     font-size: medium;
 }
 
-.aboutme{
+.aboutme {
     color: white;
-    height: 100vh;
-    margin: 40px 150px;
-    height: 70vh;
+    /* height: 100vh; */
+    padding-top: 150px;
+    margin: 60px 150px;
 }
 
-.abouth1{
+.abouth1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
+    font-size: 50px;
 
 }
 
-.aboutspan{
+.aboutspan {
     color: #ffcc00;
+    font-size: 50px;
 }
 
-.aboutp{
+.aboutp {
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     color: whitesmoke;
@@ -225,20 +229,99 @@ font-size: medium;
 
 table {
     border-collapse: collapse;
-    width: 50%;
-    margin-top: 50px;
+    width: 70%;
+    height: 60%;
+    margin-top: 70px;
     font-family: 'Montserrat', sans-serif;
 
 }
-th, td {
-    padding: 8px;
+
+th,
+td {
+    padding: 12px;
     text-align: left;
 }
 
-.field{
+.field {
     font-weight: bold;
 }
-.value{
+
+.value {
     color: whitesmoke;
 }
 
+.resumeh1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.resume {
+    margin: 60px 150px;
+    /* height: 100vh; */
+    padding-top: 110px;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.education-card {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(207, 207, 207, 0.1);
+    transition: transform 0.3s ease-in-out;
+    padding: 20px 20px;
+}
+
+.education-card:hover {
+    transform: scale(1.05);
+}
+
+
+.education-card h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffcc00;
+    font-size: 25px;
+    padding-bottom: 40px;
+}
+
+.uni {
+    color: rgb(182, 182, 182);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.degree {
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.resume a {
+    text-decoration: none;
+}
+
+.submit {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 25px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+.submit:hover {
+    background-color: whitesmoke;
+}
