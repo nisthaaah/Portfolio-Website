@@ -126,7 +126,6 @@ li a {
     border-radius: 22px;
     color: white;
     background-color: #ffcc00;
-    ;
     font-weight: bold;
     font-size: 12px;
     margin: 0 3 px;
@@ -136,7 +135,6 @@ li a {
 .buttons button:hover {
     background-color: antiquewhite;
     color: black;
-
 }
 
 .contactform h1 {
@@ -195,6 +193,7 @@ li a {
     align-items: center;
     color: white;
     cursor: pointer;
+    padding-top: 40px;
 }
 
 .learnmore h2 {
@@ -324,4 +323,43 @@ td {
 
 .submit:hover {
     background-color: whitesmoke;
+}
+
+.skillsh1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.skills {
+    margin: 60px 150px;
+    /* height: 100vh; */
+    padding-top: 110px;
+}
+
+.skills h2{
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 40px;
+
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.image-row img {
+    max-width: 100px; /* Set maximum width for individual images */
+    margin: 0 5px; /* Adjust margin between images */
+}
+
+.image-row img:hover {
+    transform: scale(1.05);
 }
