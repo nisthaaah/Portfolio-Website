@@ -57,3 +57,14 @@ document.addEventListener("DOMContentLoaded", function () {
         aboutSection.scrollIntoView({ behavior: "smooth" });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    const aboutLink = document.querySelector('a[href="#projects]');
+
+    aboutLink.addEventListener("click", function (event) {
+        event.preventDefault();
+
+        const aboutSection = document.getElementById("projects");
+        aboutSection.scrollIntoView({ behavior: "smooth" });
+    });
+});
