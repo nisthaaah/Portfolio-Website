@@ -338,7 +338,7 @@ td {
     padding-top: 90px;
 }
 
-.skills h2{
+.skills h2 {
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -356,21 +356,23 @@ td {
 }
 
 .image-row img {
-    max-width: 100px; /* Set maximum width for individual images */
-    margin: 0 5px; /* Adjust margin between images */
+    max-width: 100px;
+    /* Set maximum width for individual images */
+    margin: 0 5px;
+    /* Adjust margin between images */
 }
 
 .image-row img:hover {
     transform: scale(1.05);
 }
 
-.projects{
+.projects {
     margin: 60px 150px;
     /* height: 100vh; */
     padding-top: 110px;
 }
 
-.projects h1{
+.projects h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -423,15 +425,65 @@ td {
     opacity: 0.8;
 }
 
-.contact{
+.contact {
     margin: 60px 150px;
     /* height: 100vh; */
     padding-top: 110px;
 }
 
-.contact h1{
+.contact h1 {
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 50px;
+    margin-bottom: 50px;
 }
+
+.contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(90, 90, 90);
+  }
+
+  .contact-form-container label {
+    line-height: 2.7em;
+    font-weight: var(--bold-font);
+    color: gray;
+  }
+  
+  .contact-form-container .input-field {
+    width: 96%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px outset gray;
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.contact-form-container textarea {
+    resize: vertical;
+    min-height: 6.25rem;
+    min-width: 4.0rem;
+    font-size: 14px;
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: black;
+    border: 2px solid gray;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: var(--bold-font);
+    transition: var(--transition);
+  }
+
+  .submit-btn:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+  }
