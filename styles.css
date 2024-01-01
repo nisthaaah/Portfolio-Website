@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@400;900&family=Poppins:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Kanit&family=Montserrat:wght@400;900&family=Poppins:wght@200;300;700&display=swap');
-
-* {
+body {
     margin: 0;
     padding: 0;
     background-color: black;
@@ -259,7 +258,7 @@ td {
 .resume {
     margin: 60px 150px;
     /* height: 100vh; */
-    padding-top: 110px;
+    padding-top: 50px;
 }
 
 .education-container {
@@ -335,7 +334,7 @@ td {
 .skills {
     margin: 60px 150px;
     /* height: 100vh; */
-    padding-top: 90px;
+    padding-top: 50px;
 }
 
 .skills h2 {
@@ -369,7 +368,7 @@ td {
 .projects {
     margin: 60px 150px;
     /* height: 100vh; */
-    padding-top: 110px;
+    padding-top: 50px;
 }
 
 .projects h1 {
@@ -403,6 +402,8 @@ td {
     text-align: center;
     color: white;
     font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    font-weight: bold;
 }
 
 .project:hover .text {
@@ -425,10 +426,15 @@ td {
     opacity: 0.8;
 }
 
+.projects .project .text a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .contact {
     margin: 60px 150px;
     /* height: 100vh; */
-    padding-top: 110px;
+    padding-top: 50px;
 }
 
 .contact h1 {
@@ -445,21 +451,23 @@ td {
     padding: 0.938rem;
     border-radius: 5px;
     box-shadow: 0 3px 10px rgb(90, 90, 90);
-  }
+}
 
-  .contact-form-container label {
+.contact-form-container label {
     line-height: 2.7em;
     font-weight: var(--bold-font);
-    color: gray;
-  }
-  
-  .contact-form-container .input-field {
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form-container .input-field {
     width: 96%;
     padding: 10px;
     border-radius: 5px;
     border: 2px outset gray;
     font-size: 14px;
     color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
 }
 
 .contact-form-container textarea {
@@ -468,6 +476,7 @@ td {
     min-width: 4.0rem;
     font-size: 14px;
 }
+
 .submit-btn {
     width: 100%;
     padding: 10px;
@@ -479,11 +488,11 @@ td {
     font-size: 1rem;
     font-weight: var(--bold-font);
     transition: var(--transition);
-  }
+}
 
-  .submit-btn:hover {
+.submit-btn:hover {
     background-color: white;
     border: 2px solid black;
     color: black;
     cursor: pointer;
-  }
+}
