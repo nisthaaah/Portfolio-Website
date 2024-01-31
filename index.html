@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="C:\Portfolio Website\styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +16,7 @@
 <body class="bg-black">
     <nav class="fixed top-0 w-full invisible md:visible">
         <ul class="flex px-6 py-7 space-x-6 text-white justify-end">
-            <a href="#home">
+            <a href="#home" id="homelink">
                 <li class="hover:text-yellow-500">Home</li>
             </a>
             <a href="#aboutme">
@@ -50,75 +49,78 @@
             <h2 class="text-white text-2xl mt-8 sm:text-4xl">A Software Developer</h2>
         </div>
 
-        <div class="mx-14 mt-44 flex sm:mx-24">
+        <div class="learnmore mx-14 mt-44 flex sm:mx-24 cursor-pointer">
             <span class="material-symbols-outlined text-white mr-2 text-xs sm:text-2xl">arrow_downward</span>
             <h2 class="text-white text-xs sm:text-xl">Scroll down to continue</h2>
-
-
-        </div>
-    </div id="aboutme">
-    <div class="sm:mx-24 flex justify-center items-center mt-40 sm:justify-start">
-        <h1 class="text-white text-4xl font-bold sm:text-7xl">About <span
-                class="text-yellow-500 text-4xl sm:text-7xl font-bold">me</span></h1>
-    </div>
-    <p class="mx-14 mt-4 text-white font-thin flex justify-center items-center sm:justify-start sm:mx-24">Welcome to my
-        digital space!</p>
-    <p class="text-white mx-14 mt-8 sm:mx-24">I am an enthusiastic and aspiring MCA student with a passion for
-        leveraging technology to solve real-world problems. Currently pursuing my Master's in Computer Applications, I
-        am dedicated to expanding my knowledge and honing my skills in various aspects of computer science.
-        This portfolio serves as a glimpse into my journey—a curated collection of projects, achievements, and
-        reflections. Dive into the code snippets, explore the projects, and get to know the person behind the screen.
-    </p>
-
-    <h2 class="mx-14 text-yellow-500 font-bold mt-16 sm:mx-24">Here's to innovation, collaboration, and the exciting
-        journey ahead!!</h2>
-
-    <h2 class="text-yellow-500 mx-14 mt-20 font-bold sm:mx-24">LOOK WHAT I CAN DO</h2>
-    <div class="grid grid-cols-2 gap-1 mx-14 sm:mx-24">
-        <div class="p-4">
-            <div class="flex">
-                <span class="flex material-symbols-outlined text-white mt-3">add</span>
-                <h2 class="text-white ml-3 mt-3">JAVA</h2>
-            </div>
-            <div class="flex">
-                <span class="flex material-symbols-outlined text-white mt-3">add</span>
-                <h2 class="text-white ml-3 mt-3">C/C++</h2>
-            </div>
-            <div class="flex">
-                <span class="flex material-symbols-outlined text-white mt-3">add</span>
-                <h2 class="text-white ml-3 mt-3">HTML</h2>
-            </div>
-            <div class="flex">
-                <span class="flex material-symbols-outlined text-white mt-3">add</span>
-                <h2 class="text-white ml-3 mt-3">CSS</h2>
-            </div>
-        </div>
-        <div class="p-4">
-            <div class="flex">
-                <span class="flex material-symbols-outlined text-white mt-3">add</span>
-                <h2 class="text-white ml-3 mt-3">JavaScript</h2>
-            </div>
-            <div class="flex">
-                <span class="flex material-symbols-outlined text-white mt-3">add</span>
-                <h2 class="text-white ml-3 mt-3">Flutter</h2>
-            </div>
-            <div class="flex">
-                <span class="flex material-symbols-outlined text-white mt-3">add</span>
-                <h2 class="text-white ml-3 mt-3">Vue.js</h2>
-            </div>
-            <div class="flex">
-                <span class="flex material-symbols-outlined text-white mt-3">add</span>
-                <h2 class="text-white ml-3 mt-3">GitHub</h2>
-            </div>
         </div>
     </div>
-    <div>
 
-    </div>
-    <div>
+    <div id="aboutme">
+        <div class="sm:mx-24 flex justify-center items-center mt-40 sm:justify-start">
+            <h1 class="text-white text-4xl font-bold sm:text-7xl">About <span
+                    class="text-yellow-500 text-4xl sm:text-7xl font-bold">me</span></h1>
+        </div>
+        <p class="mx-14 mt-4 text-white font-thin flex justify-center items-center sm:justify-start sm:mx-24">Welcome to
+            my
+            digital space!</p>
+        <p class="text-white mx-14 mt-8 sm:mx-24">I am an enthusiastic and aspiring MCA student with a passion for
+            leveraging technology to solve real-world problems. Currently pursuing my Master's in Computer Applications,
+            I am dedicated to expanding my knowledge and honing my skills in various aspects of computer science.
+            This portfolio serves as a glimpse into my journey—a curated collection of projects, achievements, and
+            reflections. Dive into the code snippets, explore the projects, and get to know the person behind the
+            screen.
+        </p>
 
-    </div>
+        <h2 class="mx-14 text-yellow-500 font-bold mt-16 sm:mx-24">Here's to innovation, collaboration, and the exciting
+            journey ahead!!</h2>
 
+        <h2 class="text-yellow-500 mx-14 mt-20 font-bold sm:mx-24">LOOK WHAT I CAN DO</h2>
+        <div class="grid grid-cols-2 gap-1 mx-14 sm:mx-24 mb-10">
+            <div class="p-4">
+                <div class="flex">
+                    <span class="flex material-symbols-outlined text-white mt-3">add</span>
+                    <h2 class="text-white ml-3 mt-3">JAVA</h2>
+                </div>
+                <div class="flex">
+                    <span class="flex material-symbols-outlined text-white mt-3">add</span>
+                    <h2 class="text-white ml-3 mt-3">C/C++</h2>
+                </div>
+                <div class="flex">
+                    <span class="flex material-symbols-outlined text-white mt-3">add</span>
+                    <h2 class="text-white ml-3 mt-3">HTML</h2>
+                </div>
+                <div class="flex">
+                    <span class="flex material-symbols-outlined text-white mt-3">add</span>
+                    <h2 class="text-white ml-3 mt-3">CSS</h2>
+                </div>
+            </div>
+            <div class="p-4">
+                <div class="flex">
+                    <span class="flex material-symbols-outlined text-white mt-3">add</span>
+                    <h2 class="text-white ml-3 mt-3">JavaScript</h2>
+                </div>
+                <div class="flex">
+                    <span class="flex material-symbols-outlined text-white mt-3">add</span>
+                    <h2 class="text-white ml-3 mt-3">Flutter</h2>
+                </div>
+                <div class="flex">
+                    <span class="flex material-symbols-outlined text-white mt-3">add</span>
+                    <h2 class="text-white ml-3 mt-3">Vue.js</h2>
+                </div>
+                <div class="flex">
+                    <span class="flex material-symbols-outlined text-white mt-3">add</span>
+                    <h2 class="text-white ml-3 mt-3">GitHub</h2>
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+
+        <script src="index.js"></script>
 </body>
 
 </html>
