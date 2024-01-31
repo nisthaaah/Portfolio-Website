@@ -48,17 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    const aboutLink = document.querySelector('a[href="#skills"]');
-
-    aboutLink.addEventListener("click", function (event) {
-        event.preventDefault();
-
-        const aboutSection = document.getElementById("skills");
-        aboutSection.scrollIntoView({ behavior: "smooth" });
-    });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
     const aboutLink = document.querySelector('a[href="#projects"]');
 
     aboutLink.addEventListener("click", function (event) {

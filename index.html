@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sigmar+One&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 
-<body class="bg-black">
+<body class="bg-black font-['Montserrat']">
     <nav class="fixed top-0 w-full invisible md:visible">
         <ul class="flex px-6 py-7 space-x-6 text-white justify-end">
             <a href="#home" id="homelink">
@@ -22,7 +21,7 @@
             <a href="#aboutme">
                 <li class="hover:text-yellow-500">About</li>
             </a>
-            <a href="">
+            <a href="#resume">
                 <li class="hover:text-yellow-500">Resume</li>
             </a>
             <a href="">
@@ -36,14 +35,14 @@
 
     <div class="container" id="home">
         <div class="mx-14 mt-36 mb-2 sm:mx-24">
-            <h2 class="text-white text-xl sm:text-4xl">HELLO!!</h2>
+            <h2 class="text-white text-lg sm:text-3xl">HELLO!!</h2>
         </div>
         <div class="mx-14 sm:mx-24">
-            <h1 class="font-bold text-white text-4xl sm:text-7xl">I'm <span
-                    class=" text-yellow-500 text-4xl sm:text-7xl">Nistha</span></h1>
+            <h1 class="font-extrabold text-white text-4xl sm:text-7xl">I'm <span
+                    class="font-extrabold text-yellow-500 text-4xl sm:text-7xl">Nistha</span></h1>
         </div>
         <div class="mx-14 sm:mx-24">
-            <h1 class="font-bold text-yellow-500 text-4xl sm:text-7xl">Sharma</h1>
+            <h1 class="font-extrabold text-yellow-500 text-4xl sm:text-7xl">Sharma</h1>
         </div>
         <div class="mx-14 sm:mx-24">
             <h2 class="text-white text-2xl mt-8 sm:text-4xl">A Software Developer</h2>
@@ -61,8 +60,7 @@
                     class="text-yellow-500 text-4xl sm:text-7xl font-bold">me</span></h1>
         </div>
         <p class="mx-14 mt-4 text-white font-thin flex justify-center items-center sm:justify-start sm:mx-24">Welcome to
-            my
-            digital space!</p>
+            my digital space!</p>
         <p class="text-white mx-14 mt-8 sm:mx-24">I am an enthusiastic and aspiring MCA student with a passion for
             leveraging technology to solve real-world problems. Currently pursuing my Master's in Computer Applications,
             I am dedicated to expanding my knowledge and honing my skills in various aspects of computer science.
@@ -121,8 +119,8 @@
         </div>
     </div>
 
-    <div class="resume">
-        <div class="sm:mx-24 flex justify-center items-center mt-40 sm:justify-start">
+    <div class="resume" id="resume">
+        <div class="sm:mx-24 flex justify-center items-center mt-40">
             <h1 class="text-white text-4xl font-bold sm:text-7xl">
                 Resume
             </h1>
